@@ -1,0 +1,103 @@
+/* Typography
+-------------------------- */
+
+/// fontSize|1|Font Size|0
+$--font-size-s: 15 !default;
+$--font-size-base: 17 !default;
+$--font-size-m: 19 !default;
+$--font-size-l: 21 !default;
+/// fontWeight|1|Font Weight|1
+$--font-weight-primary: bold !default;
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: #ff4140 !default;
+/// color|1|Background Color|4
+$--color-white: #FFFFFF !default;
+/// color|1|Font Color|2
+$--color-text-primary: #262626 !default;
+/// color|1|Font Color|2
+$--color-text-regular: #262626 !default;
+/// color|1|Font Color|2
+$--color-text-secondary: #a0a0a5 !default;
+/// color|1|Font Color|2
+$--color-text-special: #595959 !default;
+/// color|1|Font Color|2
+$--color-text-gray: #e7e7e7 !default;
+/// color|1|Font Color|2
+$--color-text-placeholder: #C0C4CC !default;
+
+// Background
+/// color|1|Background Color|4
+$--background-color-base: #f6f6f6 !default;
+
+/* Border
+-------------------------- */
+/// borderRadius|1|Radius|0
+$--border-radius-base: 18 !default;
+
+
+/* Button
+-------------------------- */
+/// fontSize||Font|1
+$--button-font-size: $--font-size-base !default;
+$--button-font-size-s: $--font-size-s !default;
+$--button-font-size-m: $--font-size-m !default;
+$--button-font-size-l: $--font-size-l !default;
+$--button-font-size-xl: $--font-size-l !default;
+/// 
+$--button-background-default: $--background-color-base !default; // normal
+$--button-background-primary: $--color-primary !default; //primary 
+$--button-background-regular: $--background-color-base !default; // regular
+$--button-background-info: rgba(255,255,255, 0.12) !default; // info
+
+$--button-color-default: $--color-text-special !default;
+$--button-color-primary: $--color-white !default;
+$--button-color-regular: $--color-primary !default;
+$--button-color-info: $--color-white !default;
+
+
+$--button-touch-background-default: #eee !default; // normal
+$--button-touch-background-primary: #cc3433 !default; //primary 
+$--button-touch-background-regular: #eee !default; // regular
+$--button-touch-background-info: rgba(255,255,255, 0.24) !default; // info
+
+$--button-touch-color-default: rgba(89,89,89, 0.5) !default;
+$--button-touch-color-primary: rgba(255,255,255, 0.5) !default;
+$--button-touch-color-regular: rgba(231,207,207, 0.5) !default;
+$--button-touch-color-info: rgba(255,255,255, 0.5) !default;
+
+
+$--button-disable-background-default: #f7f7f7 !default; // normal
+$--button-disable-background-primary: #fdc4c4 !default; //primary 
+$--button-disable-background-regular: rgba(255,65,64, 0.3) !default; // regular
+$--button-disable-background-info: rgba(255,255,255, 0.1) !default; // info
+
+$--button-disable-color-default: rgba(89,89,89, 0.3)!default;
+$--button-disable-color-primary: rgba(255,255,255, 0.3) !default;
+$--button-disable-color-regular: #f7f7f7 !default;
+$--button-disable-color-info: rgba(255,255,255, 0.3) !default;
+
+
+
+
+
+
+/// fontWeight||Font|1
+$--button-font-weight: $--font-weight-primary !default;
+/// borderRadius||Border|2
+$--button-border-radius: $--border-radius-base !default;
+/// padding||Spacing|3
+$--button-padding-vertical: 12 !default;
+/// padding||Spacing|3
+$--button-padding-horizontal: 20 !default;
+
+
+
+
+/// color||Color|0
+$--button-default-font-color: $--color-text-regular !default;
+
+
+

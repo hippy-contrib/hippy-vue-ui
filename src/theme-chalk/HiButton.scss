@@ -1,0 +1,85 @@
+@import "./common/var.scss";
+.hi_btn {
+  overflow: hidden;
+  text-align: center;
+}
+.hi_btn_s {
+  height: 32;
+  line-height: 32;
+  padding-left: 14;
+  padding-right: 14;
+  border-radius: 16;
+  font-size: $--button-font-size-s;
+}
+.hi_btn_m {
+  height: 37;
+  line-height: 37;
+  padding-left: 20;
+  padding-right: 20;
+  border-radius: 18;
+  font-size: $--button-font-size-m;
+}
+.hi_btn_l {
+  width: 158;
+  height: 46;
+  line-height: 46;
+  text-align: center;
+  border-radius: 24;
+  font-size: $--button-font-size-l;
+}
+.hi_btn_xl {
+  width: 240;
+  height: 46;
+  line-height: 46;
+  text-align: center;
+  border-radius: 24;
+  font-size: $--button-font-size-l;
+}
+.primary {
+  background-color: $--button-background-primary;
+  color: $--button-color-primary;
+  &_touch {
+    background-color: $--button-touch-background-primary;
+    color: $--button-touch-color-primary;
+  }
+  &_disable {
+    background-color: $--button-disable-background-primary;
+    color: $--button-disable-color-primary;
+  }
+}
+.regular {
+  background-color: $--button-background-regular;
+  color: $--button-color-regular;
+  &_touch {
+    background-color: $--button-touch-background-regular;
+    color: $--button-touch-color-regular;
+  }
+  &_disable {
+    color: $--button-disable-background-regular;
+    background-color: $--button-disable-color-regular;
+  }
+}
+.info {
+  background-color: $--button-background-info;
+  color: $--button-color-info;
+  &_touch {
+    background-color: $--button-touch-background-info;
+    color: $--button-touch-color-info;
+  }
+  &_disable {
+    background-color: $--button-disable-background-info;
+    color: $--button-disable-color-info;
+  }
+}
+.default {
+  background-color: $--background-color-base;
+  color: $--color-text-special;
+  &_touch {
+    background-color: $--button-touch-background-default;
+    color: $--button-touch-color-default;
+  }
+  &_disable {
+    background-color: $--button-disable-background-default;
+    color: $--button-disable-color-default;
+  }
+}
