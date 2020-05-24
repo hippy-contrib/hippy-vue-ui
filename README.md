@@ -26,17 +26,16 @@ Vue.use(hippyUi)
 
 ## 如何使用
 
-### Button
-
-> 按钮组件，可配置多种不同的按钮样式
+### HiText
 
 ```js
-
 // template中使用
-<HiButton text="关注"/>
-<HiButton type="btnWhite" text="关注"/>
-<HiButton type="btnWhite" text="关注" :disable="true" />
-<HiButton text="关注" size="s"/>
+<HiText type="SmallRegularBrand">HiText 组件</HiText>
+<HiText type="SmallRegularSecondary">HiText 组件</HiText>
+<HiText type="SmallRegularBrand">HiText 组件</HiText>
+<HiText type="SmallBoldPrimary">HiText 组件</HiText>
+<HiText type="SmallBoldSecondary">HiText 组件</HiText>
+<HiText type="SmallBoldBrand">HiText 组件</HiText>
 ```
 
 ## 待支持组件
