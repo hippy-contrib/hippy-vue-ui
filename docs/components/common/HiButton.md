@@ -2,7 +2,7 @@
 
 这里将介绍各个组件的具体用法。
 
-## Button 按钮
+## HiButton 按钮
 
 常用的操作按钮。
 
@@ -25,7 +25,7 @@
 </script>
 ```
 
-<!-- <img src="../img/button1.jpeg" style="width:400px;"/> -->
+<!-- <img src="../img/button1.jpeg" style="width:400px;">Button 组件</HiButton> -->
 
 * 示例代码
 
@@ -42,7 +42,7 @@
 
 按钮不可用状态。
 
-<!-- <img src="../img/button2.jpeg" style="width:400px;"/> -->
+<!-- <img src="../img/button2.jpeg" style="width:400px;">Button 组件</HiButton> -->
 
 * 示例代码
 
@@ -58,15 +58,15 @@
 
 按钮不可用状态。
 
-<img src="../img/button3.jpeg" style="width:400px;"/>
+<!-- <img src="../img/button3.jpeg" style="width:400px;">Button 组件</HiButton> -->
 
 * 示例代码
 
 ```html
-<HiButton text="关注" size="s" type="primary"/>
-<HiButton text="关注" size="m" type="primary"/>
-<HiButton text="发布" size="l" type="primary"/>
-<HiButton text="我要K歌" size="xl" type="primary"/>
+<HiButton size="s" type="primary">Button 组件</HiButton>
+<HiButton size="m" type="primary">Button 组件</HiButton>
+<HiButton size="l" type="primary">Button 组件</HiButton>
+<HiButton size="xl" type="primary">Button 组件</HiButton>
 ```
 
 ## 属性
@@ -76,7 +76,6 @@
 |---------- |-------- |---------- |-------------  |-------- |
 | size     | 尺寸   | string  |   s / m / l / xl            |    m     |
 | type     | 类型   | string    |   default / primary / regular / info  |     default    |
-| text     |  文本   | string    | — | —   |
 | disable  | 是否禁用状态    | boolean   | —   | false   |
 | onTouchablePress | 点击 |
 

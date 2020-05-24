@@ -22,7 +22,7 @@
     "@hippy/vue-native-components": "^2.0.1",
     "@hippy/vue-router": "^2.0.1",
     "core-js": "^3.4.3",
-    "hippy-vue-ui": "^0.0.1",
+    "hippy-vue-ui": "^0.0.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",

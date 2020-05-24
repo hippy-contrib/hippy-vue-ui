@@ -1,21 +1,20 @@
 <template>
-  <div class="feature-list">
-      <HiButton type="primary" size="s">Button 组件</HiButton>
-      <HiButton type="regular" size="s">Button 组件</HiButton>
-      <HiButton type="info" size="s">Button 组件</HiButton>
-      <HiButton size="s">Button 组件</HiButton>
+  <div class="feature-hiButton">
+    <HiButton type="primary">Button 组件</HiButton>
+    <HiButton type="regular">Button 组件</HiButton>
+    <HiButton type="info">Button 组件</HiButton>
+    <HiButton>Button 组件</HiButton>
 
+    <HiButton :disable="true" type="primary">Button 组件</HiButton>
+    <HiButton type="regular" :disable="true">Button 组件</HiButton>
+    <HiButton type="info" :disable="true">Button 组件</HiButton>
+    <HiButton :disable="true">Button 组件</HiButton>
 
-      <HiButton type="primary">Button 组件</HiButton>
-      <HiButton type="regular">Button 组件</HiButton>
-      <HiButton type="info">Button 组件</HiButton>
-      <HiButton>Button 组件</HiButton>
-
-      <HiButton :disable="true" type="primary">Button 组件</HiButton>
-      <HiButton type="regular" :disable="true">Button 组件</HiButton>
-      <HiButton type="info" :disable="true">Button 组件</HiButton>
-      <HiButton :disable="true">Button 组件</HiButton>
-</div>
+    <HiButton size="s" type="primary">Button 组件</HiButton>
+    <HiButton size="m" type="primary">Button 组件</HiButton>
+    <HiButton size="l" type="primary">Button 组件</HiButton>
+    <HiButton size="xl" type="primary">Button 组件</HiButton>
+  </div>
 </template>
 
 <script>
@@ -31,4 +30,7 @@ export default {
 </script>
 
 <style scope>
+.feature-hiButton {
+ padding: 20;
+}
 </style>

@@ -4651,10 +4651,10 @@ highlight.js@^9.6.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
   integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
 
-hippy-vue-ui@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hippy-vue-ui/-/hippy-vue-ui-0.0.1.tgz#58e7b304fc7c4dcfdcc835e097463d7689275fba"
-  integrity sha512-f1jKwMTaX8lRIbNwuwi+58eL0YjRGPanuhFxtT+XEu7zj9PpL3U27AquV4WXvIM0HX+wcSOTrkOpPmae4mIR0g==
+hippy-vue-ui@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/hippy-vue-ui/-/hippy-vue-ui-0.0.2.tgz#57012af7cf514786dcc9b7b74bd318cb191efcbd"
+  integrity sha512-2qjOz0OKdjdkzEzWVr/T3RD7x9vvOtQ8An8T4ywtEHKqenc44I9fKthvTgnnpWBRE4QCpqNVLWCp2rHO2rDtTg==
   dependencies:
     docsify-cli "^4.3.0"
 

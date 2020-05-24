@@ -19,6 +19,10 @@ import hippyUi from 'hippy-vue-ui'
 Vue.use(hippyUi)
 ```
 
+##  `scripts` 字段说明
+
+- `doc`: 浏览本地文档 Server
+- `dev`: 调试
 
 ## 如何使用
 
