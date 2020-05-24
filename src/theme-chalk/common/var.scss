@@ -2,25 +2,31 @@
 -------------------------- */
 
 /// fontSize|1|Font Size|0
-$--font-size-s: 15 !default;
-$--font-size-base: 17 !default;
-$--font-size-m: 19 !default;
-$--font-size-l: 21 !default;
+$--font-size-s: 12 !default;
+$--font-size-m: 16 !default;
+$--font-size-l: 20 !default;
+
 /// fontWeight|1|Font Weight|1
 $--font-weight-primary: bold !default;
 
 /* Color
 -------------------------- */
+
+
 /// color|1|Brand Color|0
-$--color-primary: #ff4140 !default;
+
+/// color|1|Brand Color|0
+$--color-primary: #2d6feb !default; // ff4140 
 /// color|1|Background Color|4
 $--color-white: #FFFFFF !default;
-/// color|1|Font Color|2
-$--color-text-primary: #262626 !default;
+
+$--color-text-brand: #2d6feb !default;  // 品牌色
+/// color|1|primary Color|0
+$--color-text-primary: #2a2a2a !default;  // 基本色
+/// color|1|secondary Color|0
+$--color-text-secondary: #919191 !default;  // 辅助颜色
 /// color|1|Font Color|2
 $--color-text-regular: #262626 !default;
-/// color|1|Font Color|2
-$--color-text-secondary: #a0a0a5 !default;
 /// color|1|Font Color|2
 $--color-text-special: #595959 !default;
 /// color|1|Font Color|2
@@ -41,7 +47,7 @@ $--border-radius-base: 18 !default;
 /* Button
 -------------------------- */
 /// fontSize||Font|1
-$--button-font-size: $--font-size-base !default;
+$--button-font-size: $--font-size-m !default;
 $--button-font-size-s: $--font-size-s !default;
 $--button-font-size-m: $--font-size-m !default;
 $--button-font-size-l: $--font-size-l !default;
@@ -50,7 +56,7 @@ $--button-font-size-xl: $--font-size-l !default;
 $--button-background-default: $--background-color-base !default; // normal
 $--button-background-primary: $--color-primary !default; //primary 
 $--button-background-regular: $--background-color-base !default; // regular
-$--button-background-info: rgba(255,255,255, 0.12) !default; // info
+$--button-background-info: #777 !default; // info
 
 $--button-color-default: $--color-text-special !default;
 $--button-color-primary: $--color-white !default;
@@ -59,7 +65,7 @@ $--button-color-info: $--color-white !default;
 
 
 $--button-touch-background-default: #eee !default; // normal
-$--button-touch-background-primary: #cc3433 !default; //primary 
+$--button-touch-background-primary: #1f50ad !default; //primary 
 $--button-touch-background-regular: #eee !default; // regular
 $--button-touch-background-info: rgba(255,255,255, 0.24) !default; // info
 
@@ -70,9 +76,9 @@ $--button-touch-color-info: rgba(255,255,255, 0.5) !default;
 
 
 $--button-disable-background-default: #f7f7f7 !default; // normal
-$--button-disable-background-primary: #fdc4c4 !default; //primary 
-$--button-disable-background-regular: rgba(255,65,64, 0.3) !default; // regular
-$--button-disable-background-info: rgba(255,255,255, 0.1) !default; // info
+$--button-disable-background-primary: #85a7e6 !default; //primary 
+$--button-disable-background-regular: #2d6feb4d !default; // regular
+$--button-disable-background-info: rgb(197, 197, 197) !default; // info
 
 $--button-disable-color-default: rgba(89,89,89, 0.3)!default;
 $--button-disable-color-primary: rgba(255,255,255, 0.3) !default;

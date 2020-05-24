@@ -1,13 +1,10 @@
 <template>
   <div @touchStart="isTouching = true" @touchMove="isTouching = false" @touchEnd="onPress">
-    <slot>
-      <span :class="hi_button" :style="{ fontWeight }">{{text}}</span>
-    </slot>
+    <span :class="hi_button"> <slot>  </slot></span>
   </div>
 </template>
 
 <script>
-import Vue from '@hippy/vue'
 export default {
   name: "HiButton",
   data() {
@@ -48,11 +45,6 @@ export default {
       let touchCls = this.isTouching ? `${this.type}_touch` : "";
       let disableCls = this.disable ? `${this.type}_disable` : "";
       return `hi_btn ${this.type} hi_btn_${this.size} ${touchCls} ${disableCls}`;
-    },
-    fontWeight() {
-      return Vue.Native.Platform === "ios"
-        ? '600'
-        : "bold";
     }
   },
   methods: {

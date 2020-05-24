@@ -1,6 +1,7 @@
-import Vue from '@hippy/vue'
+// import Vue from '@hippy/vue'
 
-import HiText from "./components/text";
+import HiText from "./components/HiText";
+import HiButton from "./components/HiButton";
 
 const MAN_VERSION = '0.0.1'
 
@@ -8,35 +9,32 @@ const MAN_VERSION = '0.0.1'
 const version = /* @echo MAN_VERSION */ MAN_VERSION
 
 export const components = {
-  HiText
+  HiText,
+  HiButton
 }
 
 // Define plugin installation method
 const install = function (Vue) {
-  if (!Vue || install.installed) {
-    return
-  }
+  // if (!Vue || install.installed) {
+  //   return
+  // }
 
-  // Register global components
-  const componentsNames = Object.keys(components)
-  componentsNames.forEach(name => {
-    const component = components[name]
-    if (component.name) {
-      Vue.component(component.name, component) // kebab-case
-      Vue.component(transformCamelCase(`-${component.name}`), component) // PascalCase
-    }
-  })
-
-  // Mount to prototype
-  // Vue.prototype.$toast = Toast
-  // Vue.prototype.$dialog = Dialog
-  // Vue.prototype.$actionsheet = ActionSheet
+  // // Register global components
+  // const componentsNames = Object.keys(components)
+  // componentsNames.forEach(name => {
+  //   const component = components[name]
+  //   if (component.name) {
+  //     Vue.component(component.name, component) // kebab-case
+  //     // Vue.component(transformCamelCase(`-${component.name}`), component) // PascalCase
+  //   }
+  // })
 }
 
-install(Vue)
+// install(Vue)
 
 export {
-  HiText
+  HiText,
+  HiButton
 };
 
 export default {

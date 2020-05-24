@@ -1,51 +1,32 @@
 <template>
   <span
-    :style="{fontSize: size,fontWeight:weight}"
-    :class="'color'+color"
+    :class="type"
     :numberOfLines="numberOfLines"
     v-bind="$attrs"
     v-on="$listeners"
-  >{{text}}</span>
+    ref="hiTextRef"
+  ><slot></slot></span>
 </template>
 
 <script>
-import Vue from "@hippy/vue";
+import Type from "./Type";
+export { Type };
+
 export default {
   name: "HiText",
   props: {
-    text: {
-      type: [String, Number],
-      default: ""
-    },
-    size: {
-      type: Number,
-      default: 17
-    },
-    bold: {
-      type: Boolean,
-      default: false
-    },
-    color: {
+    type: {
       type: String,
-      default: "black" // black, gray, blue, red, white, dark
+      default: Type.middleRegularPrimary
     },
-    numberOfLines: [String, Number],
-    emojiMode: Object
-  },
-  computed: {
-    weight() {
-      if (Vue.Native.Platform === "ios") {
-        let list = [100, 200, 300, 400, 500, 600, 700, 800, 900];
-        if (this.bold && +this.bold && list.indexOf(+this.bold) > -1) {
-          return this.bold.toString();
-        } else return this.bold ? "600" : "200";
-      } else return this.bold ? "bold" : "";
-    }
+    numberOfLines: [String, Number]
   }
 };
+
 </script>
 
-<style lang="scss" >
+
+<style lang="scss">
 @import "../../theme-chalk/HiText.scss";
 </style>
 

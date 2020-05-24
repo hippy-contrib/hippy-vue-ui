@@ -1,0 +1,5 @@
+- [安装](/01.installation)
+- [快速入门](/02.quickstart)
+- 组件
+  - [HiText 文本](/components/common/HiText)
+  - [HiButton 按钮](/components/common/HiButton)

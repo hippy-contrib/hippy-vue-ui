@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hippy Vue UI</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/vuep/dist/vuep.css">
+  <style>
+    .vuep-preview{
+      width: 375px;
+      padding: 0;
+    }
+    .vuep-preview, .vuep-preview *{
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    let exampleId = 0;
+    window.$docsify = {
+      name: 'Hippy Vue UI',
+      repo: 'https://github.com/hippy-contrib/hippy-vue-ui',
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      markdown: {
+        renderer: {
+          code: function(code, lang) {
+            if(lang === 'demo') {
+              return (`<vuep template="#example${exampleId}"></vuep>
+                       <script v-pre type="text/x-template" id="example${exampleId++}">${code}</` + `script>`);
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      },
+      search: {
+        placeholder: '搜索',
+        noData: '无匹配结果！',
+      },
+      copyCode: {
+        buttonText : '复制',
+        errorText  : '错误',
+        successText: '已复制'
+      }
+    }
+  </script>
+  <script src="//unpkg.com/vue/dist/vue.min.js"></script>
+  <script>
+    if (window.Vue) {
+      window.Vue.Native = {
+        Platform: {
+          OS: "web"
+        },
+        Dimensions: {
+          window: {
+            width: 375,
+            height: 400,
+            scale: 0
+          },
+          screen: {
+            width: 375,
+            height: 400,
+            scale: 0
+          }
+        }
+      };
+    }
+  </script>
+  <script src="./hippy-vue-ui/index.js"></script>
+  <script src="//unpkg.com/vuep/dist/vuep.js"></script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+</body>
+</html>

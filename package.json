@@ -1,8 +1,8 @@
 {
   "name": "hippy-vue-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "author": "abigaleypc <abigaleypc@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -17,11 +17,11 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@hippy/vue-css-loader": "^1.0.7",
+    "@hippy/vue-css-loader": "^2.0.3",
     "babel-loader": "^8.0.6",
     "concurrently": "^4.1.2",
     "css-loader": "^3.0.0",
-    "docsify": "^4.9.4",
+    "docsify": "^4.11.3",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "scope-loader": "^1.0.3",
@@ -31,6 +31,9 @@
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.4"
+  },
+  "peerDependencies": {
+    "@hippy/vue": "^2.0.1"
   },
   "dependencies": {
     "docsify-cli": "^4.3.0"

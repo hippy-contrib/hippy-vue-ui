@@ -1,20 +1,127 @@
+@import "./common/var.scss";
 
-.colorblack {
-    color: #262626;
-  }
-  .colorblue {
-    color: #566b94;
-  }
-  .colorgray {
-    color: #a0a0a5;
-  }
-  .colordark {
-    color: #595959;
-  }
-  .colorwhite {
-    color: #fff;
-  }
-  .colorred {
-    color: #ff4140;
-  }
-  
+.SmallRegularPrimary {
+    font-size: $--font-size-s;
+    line-height: $--font-size-s * 1.5;
+    color: $--color-text-primary;
+    font-weight: normal;
+}
+
+.SmallRegularSecondary {
+    font-size: $--font-size-s;
+    line-height: $--font-size-s * 1.5;
+    color: $--color-text-secondary;
+    font-weight: normal;
+}
+
+.SmallRegularBrand {
+    font-size: $--font-size-s;
+    line-height: $--font-size-s * 1.5;
+    color: $--color-text-brand;
+    font-weight: normal;
+}
+
+.SmallBoldPrimary {
+    font-size: $--font-size-s;
+    line-height: $--font-size-s * 1.5;
+    color: $--color-text-primary;
+    font-weight: bold;
+}
+
+.SmallBoldSecondary {
+    font-size: $--font-size-s;
+    line-height: $--font-size-s * 1.5;
+    color: $--color-text-secondary;
+    font-weight: bold;
+}
+
+.SmallBoldBrand {
+    font-size: $--font-size-s;
+    line-height: $--font-size-s * 1.5;
+    color: $--color-text-brand;
+    font-weight: bold;
+}
+
+.MiddleRegularPrimary {
+    font-size: $--font-size-m;
+    line-height: $--font-size-m * 1.5;
+    color: $--color-text-primary;
+    font-weight: normal;
+}
+
+.MiddleRegularSecondary {
+    font-size: $--font-size-m;
+    line-height: $--font-size-m * 1.5;
+    color: $--color-text-secondary;
+    font-weight: normal;
+}
+
+.MiddleRegularBrand {
+    font-size: $--font-size-m;
+    line-height: $--font-size-m * 1.5;
+    color: $--color-text-brand;
+    font-weight: normal;
+}
+
+.MiddleBoldPrimary {
+    font-size: $--font-size-m;
+    line-height: $--font-size-m * 1.5;
+    color: $--color-text-primary;
+    font-weight: bold;
+}
+
+.MiddleBoldSecondary {
+    font-size: $--font-size-m;
+    line-height: $--font-size-m * 1.5;
+    color: $--color-text-secondary;
+    font-weight: bold;
+}
+
+.MiddleBoldBrand {
+    font-size: $--font-size-m;
+    line-height: $--font-size-m * 1.5;
+    color: $--color-text-brand;
+    font-weight: bold;
+}
+
+.LargeRegularPrimary {
+    font-size: $--font-size-l;
+    line-height: $--font-size-l * 1.5;
+    color: $--color-text-primary;
+    font-weight: normal;
+}
+
+.LargeRegularSecondary {
+    font-size: $--font-size-l;
+    line-height: $--font-size-l * 1.5;
+    color: $--color-text-secondary;
+    font-weight: normal;
+}
+
+.LargeRegularBrand {
+    font-size: $--font-size-l;
+    line-height: $--font-size-l * 1.5;
+    color: $--color-text-brand;
+    font-weight: normal;
+}
+
+.LargeBoldPrimary {
+    font-size: $--font-size-l;
+    line-height: $--font-size-l * 1.5;
+    color: $--color-text-primary;
+    font-weight: bold;
+}
+
+.LargeBoldSecondary {
+    font-size: $--font-size-l;
+    line-height: $--font-size-l * 1.5;
+    color: $--color-text-secondary;
+    font-weight: bold;
+}
+
+.LargeBoldBrand {
+    font-size: $--font-size-l;
+    line-height: $--font-size-l * 1.5;
+    color: $--color-text-brand;
+    font-weight: bold;
+}
