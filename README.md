@@ -6,6 +6,7 @@
 
 * HiButton 按钮
 * HiText 文本
+* HiTag 标签
 
 
 ## 引入
@@ -48,7 +49,7 @@ Vue.use(hippyUi)
 - [ ] List 列表
 - [ ] Icon 图标
 - [ ] Checkbox 多选框
-- [ ] Tag 标签
+- [x] Tag 标签
 - [ ] Image 图片
 - [ ] RedDot 红点
 - [ ] Empty 为空图
