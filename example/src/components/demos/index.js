@@ -1,5 +1,6 @@
 import demoHiText from './demo-hitext.vue';
 import demoHiButton from './demo-hibutton.vue';
+import demoHiTag from './demo-hitab.vue';
 
 const demos = {
   demoHiText: {
@@ -9,6 +10,10 @@ const demos = {
   demoHiButton: {
     name: 'HiButton 组件',
     component: demoHiButton,
+  },
+  demoHiTag: {
+    name: 'HiTag 组件',
+    component: demoHiTag,
   },
 };
 

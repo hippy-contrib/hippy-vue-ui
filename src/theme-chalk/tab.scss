@@ -1,0 +1,136 @@
+@import "./common/var.scss";
+$-tabs-height:50;
+.hi_tabs_line_warp {
+  position: relative;
+  .bottom-line {
+    position: absolute;
+    bottom: 3;
+    height: 1;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.hi_tabs_line {
+  overflow-x: scroll;
+  .hi-tabs {
+    
+    .hi-tab {
+      &_text {
+        padding-left: 15;
+        padding-right: 15;
+        line-height: $-tabs-height;
+      }
+      .active {
+        position: relative;
+        .active-dot {
+          position: absolute;
+          background-color: $--color-primary;
+          width: 14;
+          height: 4;
+          border-radius: 2;
+          bottom: 2;
+          z-index: 200;
+        }
+      }
+    }
+  }
+  .flex {
+    justify-content: space-around;
+  }
+}
+
+.hi_tabs_card {
+  // border-width: 1;
+  // border-color: #111;
+  // border-style: solid;
+  .hi-tabs_bg {
+    justify-content: center;
+    border-radius: 6;
+    padding-left: 2;
+    padding-right: 2;
+    padding-top: 2;
+    padding-bottom: 2;
+    background-color: #f6f6f6;
+    height: 35;
+  }
+
+  .hi-tabs {
+    border-radius: 6;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+
+    .hi-tab {
+      flex: 1;
+    }
+
+    .active {
+      background-color: white;
+    }
+  }
+}
+
+.hi_tabs_headline {
+  .hi-tabs {
+    flex: 1;
+    flex-direction: row;
+
+    .hi-tab {
+      padding-right: 15;
+      align-items: center;
+      justify-content: center;
+
+      &_text {
+        color:#a0a0a5;
+        font-size: 19;
+        font-weight: bold;
+
+      }
+
+      .active {
+        color:#262626;
+        font-size: 30;
+      }
+    }
+
+  }
+}
+
+
+.hi_tabs_warp {
+  background-color: white;
+  height: $-tabs-height;
+}
+
+
+.hi_tabs_card {
+  flex: 1;
+  justify-content: center;
+  background-color: white;
+}
+
+.hi_tabs_line,
+.hi_tabs_card {
+  .hi-tabs {
+    flex: 1;
+    flex-direction: row;
+
+    .hi-tab {
+      align-items: center;
+      justify-content: center;
+
+      &_text {
+        font-weight: bold;
+
+      }
+
+      .active {
+        align-items: center;
+      }
+    }
+
+  }
+
+}
+

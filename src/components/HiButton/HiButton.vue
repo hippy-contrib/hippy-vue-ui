@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../theme-chalk/HiButton.scss";
+@import "../../theme-chalk/button.scss";
 </style>
 
 

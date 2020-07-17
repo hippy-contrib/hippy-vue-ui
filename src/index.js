@@ -2,6 +2,7 @@
 
 import HiText from "./components/HiText";
 import HiButton from "./components/HiButton";
+import HiTag from "./components/HiTag";
 
 const MAN_VERSION = '0.0.1'
 
@@ -10,7 +11,8 @@ const version = /* @echo MAN_VERSION */ MAN_VERSION
 
 export const components = {
   HiText,
-  HiButton
+  HiButton,
+  HiTag
 }
 
 // Define plugin installation method
@@ -34,7 +36,8 @@ const install = function (Vue) {
 
 export {
   HiText,
-  HiButton
+  HiButton,
+  HiTag
 };
 
 export default {

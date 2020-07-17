@@ -27,7 +27,7 @@ export default {
 
 
 <style lang="scss">
-@import "../../theme-chalk/HiText.scss";
+@import "../../theme-chalk/text.scss";
 </style>
 
 
