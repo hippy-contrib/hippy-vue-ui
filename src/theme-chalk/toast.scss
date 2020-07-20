@@ -1,0 +1,18 @@
+@import "./common/common.scss";
+
+.hi-toast {
+  &_content {
+    height: 50;
+    justify-content: center;
+    padding-left: 22;
+    padding-right: 22;
+    background-color: rgba($color: #111, $alpha: 0.9);
+    box-shadow: -10;
+    border-radius: 6;
+    &_text {
+      font-size: 17;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}

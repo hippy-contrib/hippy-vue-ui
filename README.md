@@ -7,17 +7,31 @@
 * HiButton 按钮
 * HiText 文本
 * HiTag 标签
-
+* HiImage 图片
+* HiNavigator 导航
+* HiSplitLine 分割线
+* HiListItem 列表项
+* HiTabs 标签页
+* HiActionSheet 分享面板
+* HiRedDot 小红点
+* HiCheckbox 多选框
 
 ## 引入
 
-### 全量引入
+
 
 ```js
-import Vue from '@hippy/vue'
-import hippyUi from 'hippy-vue-ui'
+<script>
+import Vue from "vue";
+import { HiText } from "hippy-vue-ui";
 
-Vue.use(hippyUi)
+export default {
+  name: "HiTextDemo",
+  components: {
+    HiText
+  }
+};
+</script>
 ```
 
 ##  `scripts` 字段说明
@@ -43,19 +57,25 @@ Vue.use(hippyUi)
 
 - [x] Text 文本
 - [x] Button 按钮
-- [ ] Navigator 导航
-- [ ] SplitLine 分割线
-- [ ] ListItem 列表项
+- [x] Navigator 导航
+- [x] SplitLine 分割线
+- [x] ListItem 列表项
 - [ ] List 列表
 - [ ] Icon 图标
-- [ ] Checkbox 多选框
+- [x] Checkbox 多选框
 - [x] Tag 标签
-- [ ] Image 图片
-- [ ] RedDot 红点
+- [x] Image 图片
+- [x] RedDot 红点
 - [ ] Empty 为空图
-- [ ] ActionSheet 菜单
+- [x] ActionSheet 菜单
 - [ ] LabelBar 标签栏
 - [ ] Modal 弹层
 - [ ] Radio 单选框
 - [ ] SharePane 分享面板
 - [ ] Toast 吐司
+
+## Demo本地运行
+
+* `cd example`
+* `npm run hippy:dev`
+* `npm run hippy:debug`

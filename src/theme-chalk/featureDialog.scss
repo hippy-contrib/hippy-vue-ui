@@ -1,0 +1,90 @@
+@import "./common/common.scss";
+
+.dialog-container {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+  .hi-featureDialog {
+    width: 281;
+    border-top-left-radius: 10;
+    border-top-right-radius: 10;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-right-radius: 10;
+    border-bottom-left-radius: 10;
+  }
+  .close {
+    height: 11;
+    width: 11;
+    background-color: white;
+  }
+  .title {
+    margin-top: 21;
+    margin-bottom: 5;
+  }
+  .title-content {
+    font-size: 19;
+    color: #262626;
+    font-weight: bold;
+  }
+  .update-content {
+    justify-content: center;
+    align-items: center;
+    padding-left: 30;
+    padding-right: 30;
+    margin-top: 7;
+  }
+  .update-content-detail {
+    font-size: 17;
+    color: #262626;      
+  }
+  .bottom-btn {
+    height: 46;
+    width: 180;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22;
+    margin-bottom: 22;
+    background-color: #FF4140;
+    border-radius:50;
+    .bottom-btn-content {
+      font-size: 19;
+    }
+  }
+  .bottom-btn-loading {
+    padding-right: 8;
+    color: #444444;
+  }
+  .background-gray {
+    background-color: #F7F7F7;
+  }
+  .background-red {
+    background-color: #FF4140;
+  }
+  .color-white {
+    color: white;
+  }
+  .color-black {
+    color: #444444;
+    font-weight: bold;
+  }
+  .loading-container {
+    width: 1;
+  }
+  .percent {
+    height: 10;
+    width: 7;
+    margin-left: 1;
+  }

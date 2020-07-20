@@ -1,0 +1,55 @@
+@import "./common/common.scss";
+
+.dialog-box {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.tips-popup-wrap {
+  width: 280;
+  background-color:  #F6F6F6;
+  border-radius: 10;
+}
+.hi-dialog-content {
+  margin-left: 30;
+  margin-right: 30;
+  padding-top: 22;
+  padding-bottom: 17;
+}
+.hi-dialog-title-text {
+  font-size: 19;
+  color: #262626;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 9;
+}
+.hi-dialog-content-text {
+  font-size: 17;
+  color: #262626;
+  line-height: 26;
+  text-align: center;
+}
+.hi-dialog-button-wrap {
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10;
+  border-bottom-right-radius: 10;
+}
+.hi-dialog-button-text {
+  font-size: 19;
+  color: #000000;
+  text-align: center;
+  height: 50;
+  line-height: 50;
+}
+.hi-dialog-button-text-wrap-left {
+  border-right-color: #F6F6F6;
+  border-right-width: 1;
+}
+.hi-dialog-button-text-wrap {
+  flex: 1;
+}
+.right_text{
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+@import "./common/var.scss";
+
+.hi-bottomtabbar {
+  flex-direction: row;
+  // padding-left: 25;
+  // padding-right: 25;
+  justify-content: space-between;
+  align-items: center;
+  &_item {
+    // padding: 10;
+    flex: 1;
+
+    &_text {
+      font-size: 15;
+      color: $--color-text-secondary;
+    }
+  }
+}
